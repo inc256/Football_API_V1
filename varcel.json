@@ -11,14 +11,5 @@
       "src": "/(.*)",
       "dest": "/api/index.py"
     }
-  ],
-  "functions": {
-    "api/index.py": {
-      "maxDuration": 120,
-      "memory": 3008
-    }
-  },
-  "env": {
-    "PYTHONPATH": "./"
-  }
+  ]
 }
